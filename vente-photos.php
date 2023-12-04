@@ -19,9 +19,10 @@ define('MY_PLUGIN_PATH', plugin_dir_path(__FILE__));
 define('MY_PLUGIN_URL', plugin_dir_url(__FILE__));
 
 
-require_once(MY_PLUGIN_PATH . 'settings/settings.php');
-require_once(MY_PLUGIN_PATH . 'settings/datas-photos.php');
-require_once(MY_PLUGIN_PATH . 'utilities/utilities.php');
+//require_once(MY_PLUGIN_PATH . 'settings/settings.php');
+//require_once(MY_PLUGIN_PATH . 'settings/datas-photos.php');
+//require_once(MY_PLUGIN_PATH . 'utilities/utilities.php');
+require_once(MY_PLUGIN_PATH . 'settings/menu.php');
 
 class Cwpai_Script_Loader {
     public function __construct() {
