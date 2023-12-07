@@ -12,7 +12,7 @@ class cwpai_AccessArray {
 		if (isset($this->array[$key])) {
 			return $this->array[$key];
 		} else {
-			throw new Exception("L'élément $key n'existe pas dans le tableau.");
+			//throw new Exception("L'élément $key n'existe pas dans le tableau.");
 		}
 	}
 }

@@ -5,7 +5,7 @@
  * Plugin URI: http://www.ombres-et-lumieres.eu
  * Description: Ombres et lumières est un site destiné à vous offrir un voyage au sein de mon univers photographique. Au fil du temps, j' ai abordé de nombreux styles photographiques, le dernier en date est plutôt orienté paysages urbains et voyages
  * Version: 1.0
- * Author: CodeWP Assistant
+ * Author: Eric Wayaffe
  * Author URI: https://codewp.ai
  */
 
@@ -19,9 +19,9 @@ define('MY_PLUGIN_PATH', plugin_dir_path(__FILE__));
 define('MY_PLUGIN_URL', plugin_dir_url(__FILE__));
 
 
-//require_once(MY_PLUGIN_PATH . 'settings/settings.php');
-//require_once(MY_PLUGIN_PATH . 'settings/datas-photos.php');
-//require_once(MY_PLUGIN_PATH . 'utilities/utilities.php');
+require_once(MY_PLUGIN_PATH . 'settings/sell-photos-page.php');
+require_once(MY_PLUGIN_PATH . 'settings/datas-photos.php');
+require_once(MY_PLUGIN_PATH . 'utilities/utilities.php');
 require_once(MY_PLUGIN_PATH . 'settings/menu.php');
 
 class Cwpai_Script_Loader {
